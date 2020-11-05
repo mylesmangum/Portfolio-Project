@@ -1,8 +1,14 @@
 html{
     font-family: 'Montserrat', sans-serif;
     margin: none;
+    scroll-behavior: smooth;
 }
 /* Inline Styling Such as Hyperlinks */
+
+div{
+    margin-left: -8px;
+    margin-right: -8px;
+}
 
 a{
     text-decoration: none;
@@ -35,30 +41,34 @@ a{
 
 /* Video and Video Text Styling */
 video{
-    width: 110%;
-    margin-left: -8px;  
+    width: 100%;
     display: block;
     backface-visibility: hidden;
-    filter: grayscale(50%);
+    filter: grayscale(100%);
 }
 
 .Video_Text{
     position: absolute;
-    top: 25%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
 }
+/* End of Video Style */
 
+
+/* Column / Row Style */
 .Row{
-    margin: -8px;
     display: flex;
+    color: white;
 }
 
 .Column_1{
     flex: 50%;
-    background-color: #999;
+    background-color: #555;
     padding: 1rem;
 }
 
@@ -69,7 +79,15 @@ video{
 }
 
 .Column_3{
+    padding: 1rem;
     flex: 50%;
-    background-attachment: #999;
+    background-attachment: #555;
 }
+
+/* End of Column / Row Style */
+
+/* Footer Style */
+
+
+/* End of Footer Style */
 
