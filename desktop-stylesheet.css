@@ -5,6 +5,10 @@ html{
 }
 /* Inline Styling Such as Hyperlinks and Text Boxes */
 
+h1{
+    text-align: center;
+}
+
 div{
     margin-left: -8px;
     margin-right: -8px;
@@ -12,6 +16,7 @@ div{
 
 a{
     text-decoration: none;
+    color: #bbb;
 }
 
 input{
@@ -23,8 +28,8 @@ input{
     position: fixed;
     width: 100%;
     z-index: 1;
-    background-color: #777;
-    padding: 1rem;
+    background-color: #000;
+    padding: 2%;
     margin: -8px;
     margin-bottom: 0px;
 }
@@ -32,13 +37,14 @@ input{
 .Navbar a{
     text-decoration: none;
     font-weight: 500;
-    color: #000;
-    padding: 1rem;
+    color: #fff;
+    padding: 2%;
 }
 
 .Navbar a:hover{
-    background-color: #2E86C1;
-    color: #fff;
+    background-color: #bbb;
+    color: #000;
+    font-weight: 700;
 }
 /* End Navbar */
 
@@ -85,8 +91,9 @@ video{
 
 .Column_2 img{
     position: relative;
-    left: 35%;
-    width: 30%;
+    left: 10%;
+    justify-content: center;
+    width: 80%;
     border-radius: 1rem;
 }
 
@@ -96,7 +103,34 @@ video{
     background-attachment: #555;
 }
 
+.Column_3 img{
+    position: relative;
+    left: 10%;
+    justify-content: center;
+    width: 80%;
+    border-radius: 1rem;
+}
+
+
+
 /* End of Column / Row Style */
+
+/* Contact Style */
+
+input{
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.textbox{
+    width: 90%;
+}
+
+
+
+/* End Contact Style */
+
 
 /* Footer Style */
 footer{
