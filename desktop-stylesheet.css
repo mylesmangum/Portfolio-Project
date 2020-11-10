@@ -3,7 +3,7 @@ html{
     margin: none;
     scroll-behavior: smooth;
 }
-/* Inline Styling Such as Hyperlinks */
+/* Inline Styling Such as Hyperlinks and Text Boxes */
 
 div{
     margin-left: -8px;
@@ -12,6 +12,10 @@ div{
 
 a{
     text-decoration: none;
+}
+
+input{
+    padding: .5rem;
 }
 
 /* Navbar Styling */
@@ -49,7 +53,7 @@ video{
 
 .Video_Text{
     position: absolute;
-    top: 70%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -70,12 +74,20 @@ video{
     flex: 50%;
     background-color: #555;
     padding: 1rem;
+    margin-bottom: -8px;
 }
 
 .Column_2{
     padding: 1rem;
     flex: 50%;
     background-color: #eee;
+}
+
+.Column_2 img{
+    position: relative;
+    left: 35%;
+    width: 30%;
+    border-radius: 1rem;
 }
 
 .Column_3{
@@ -87,7 +99,10 @@ video{
 /* End of Column / Row Style */
 
 /* Footer Style */
-
+footer{
+    margin: -8px;
+    background-color: #777;
+}
 
 /* End of Footer Style */
 
