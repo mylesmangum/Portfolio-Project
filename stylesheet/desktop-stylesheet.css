@@ -81,12 +81,15 @@ video{
     background-color: #555;
     padding: 1rem;
     margin-bottom: -8px;
+    text-align: center;
+    height: 45vh;
 }
 
 .Column_2{
     padding: 1rem;
     flex: 50%;
     background-color: #eee;
+    height: 45vh;
 }
 
 .Column_2 img{
@@ -109,6 +112,13 @@ video{
     justify-content: center;
     width: 80%;
     border-radius: 1rem;
+}
+
+.column-photo{
+    max-height: 100%;
+    object-fit: contain;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 
