@@ -1,11 +1,15 @@
 html{
     font-family: 'Montserrat', sans-serif;
-    margin: none;
+    margin: 0;
     scroll-behavior: smooth;
 }
 /* Inline Styling Such as Hyperlinks and Text Boxes */
 
 h1{
+    text-align: center;
+}
+
+h2{
     text-align: center;
 }
 
@@ -127,6 +131,56 @@ video{
 
 /* Contact Style */
 
+#contact-button{
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem;
+    font-size: 2rem;
+    position: fixed;
+    top: 88vh;
+    width: 20%;
+    left: 75vw;
+    font-weight: 600;
+    background-color: white;
+    border: black 3px solid;
+}
+
+#contact-button:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.input-button{
+    background-color: white;
+    border: black 3px solid;
+    width: 80%;
+    margin: auto;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.input-button:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+#contact-form{
+    position: fixed;
+    bottom: 0;
+    right: 1vh;
+    width: 50vw;
+    height: 55vh;
+    background-color: white;
+    border: black 5px solid;
+    padding: 2%;
+    text-align: center;
+}
+
+.submission-box{
+    display: inline-block;
+    margin:auto;
+    width: 90%;
+}
+
 input{
     display: block;
     margin-top: 2%;
@@ -144,7 +198,9 @@ input{
 
 /* Footer Style */
 footer{
-    margin: -8px;
+    margin: -20px;
+    padding: 10px;
+    padding-bottom: 0;
     background-color: #777;
 }
 
